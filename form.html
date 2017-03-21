@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Academy: Пинк</title>
+</head>
+<body>
+    <header>
+        <h1 class="visually-hidden">HTML Academy: Pink</h1>
+        <div class="logo logo--all-header">
+            <a href="index.html"></a>
+        </div>
+            <div class="main-nav__wrapper">
+                <ul class="main-nav__items">
+                    <li class=" main-nav__item">
+                        <a href="#">Главная</a>
+                    </li>
+                    <li class="main-nav__item">
+                        <a href="#">Фотографии</a>
+                    </li>
+                    <li class="main-nav__item--active">
+                        <a>Конкурс</a>
+                    </li>
+                    <li class="main-nav__item">
+                        <a href="#">HTML Academy</a>
+                    </li>
+                </ul>
+            </div>
+    </header>
+    <main>
+        <div class="breadcrumbs">
+           <h1>Конкурс на самое безбашенное путешествие с Пинк</h1>
+        </div>
+       <section class="form">
+           <h1 class="visually-hidden">Form</h1>
+              <p>Поделитесь своей историей и получите шанс выиграть ценный приз-1000 миль
+              на вашу бонусную карту! Пожалуйста,заполните форму ниже:</p>
+           <form action="#" method="post">
+              <fieldset class="user-data">
+                  <input type="text" id="surname-field" placeholder="Укажите фамилию">
+                  <label for="surname-field">Фамилия</label>
+                  <label for="name-field">Имя</label>
+                  <input type="text" id="name-field" placeholder="Укажите имя">
+                  <label for="secondName-field">Отчество</label>
+                  <input type="text" id="secondName-field" placeholder="Ну и отчество тоже">
+              </fieldset>
+              <fieldset class="radio-area">
+                  <legend>С каким приложением путешествовали</legend>
+                  <input type="radio" id="radio-1" name="radio">
+                  <label for="radio-1">Pink для iOS</label>
+                  <input type="radio" id="radio-2" name="radio">
+                  <label for="radio-2">Pink на Android</label>
+                  <input type="radio" id="radio-3" name="radio">
+                  <label for="radio-3">Windows Phone</label>
+              </fieldset>
+              <fieldset class="backcharge-area">
+                  <legend>Контактная информация</legend>
+                  <label for="text-number">телефон</label>
+                  <input type="text" id="text-number" placeholder="Номер, пожалуйста">
+                  <p>номер телефона</p>
+                  <label for="text-mail">почта</label>
+                  <input type="text" id="text-mail" placeholder="Введите почту">
+                  <p>Адрес почты</p>
+              </fieldset>
+              <fieldset class="checkbox-area">
+                  <legend>Все безбашенные достижения в путешествии</legend>
+                  <input type="checkbox" id="checkbox-1" checked>
+                  <label for="checkbox-1">Сделал селфи с акулой</label>
+                  <input type="checkbox" id="checkbox-2">
+                  <label for="checkbox-2">Видел Чака Норриса</label>
+                  <input type="checkbox" id="checkbox-3" checked>
+                  <label for="checkbox-3">Удержал башню</label>
+                  <input type="checkbox" id="checkbox-4">
+                  <label for="checkbox-4">Обгорел на пляже</label>
+                  <input type="checkbox" id="checkbox-5">
+                  <label for="checkbox-5">Накупил сувениров</label>
+                  <input type="checkbox" id="checkbox-6">
+                  <label for="checkbox-6">Разгромил отель</label>
+              </fieldset>
+              <div class="text-field-area">
+                  <p>Опишите свои эмоции</p>
+                  <textarea name="comment" id="comment-field" rows="10">Можно прям в красках, не стеснясь в выражениях</textarea>
+              </div>
+              <input type="submit" class="dispatch" value="Отправить форму">
+              <span>обязательные для заполнения поля</span>
+        </form>
+     </section>
+     </main>
+       <footer class="main-footer">
+           <div class="logo logo--all-footer">
+               <a href="index.html"></a>
+           </div>
+           <div class="social-wrapper">
+               <a href="#"></a>
+               <a href="#"></a>
+               <a href="#"></a>
+           </div>
+           <article class="developers">
+               <span>Разработано:</span>
+               <a href="#"></a>
+          </article>
+     </footer>
+</body>
+</html>
