@@ -1,6 +1,41 @@
 .feature__headline{
-    outline: 1px solid black;
+    font-size: 18px;
+    display: inline-block;
+    width: 300px;
 }
-.feature-section:nth-child(n+2) {
-  display: none;
+.feature__bottom-area{
+    display: none;
+}
+
+@media @tablet-widths {
+
+.feature {
+    background-color: #f2f2f2;
+}
+.feature__headline{
+    font-size: 40px;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+.feature__bottom-area{
+    display: flex;
+}
+.feature__wrap{
+    width: 310px;
+}
+.feature_picture{
+    width: 310px;
+}
+}
+@media @desktop-widths {
+.feature{
+   box-sizing: border-box;
+    }
+.feature_picture{
+   width: 380px;
+    }
+.feature__wrap{
+   width: 570px;
+    }
 }

@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <title>HTML Academy: Пинк</title>
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="format-detection" content="telephone=no">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="utf-8">
+  <title>HTML Academy: Пинк</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="format-detection" content="telephone=no">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body class="main-page">
     <header class="page-header">
         <h1 class="visually-hidden">HTML Academy: Pink</h1>
         <div class="logo logo--all-header">
@@ -18,14 +18,14 @@
         <nav class="main-nav">
             <div class="main-nav__wrapper">
                 <ul class="main-nav__items">
-                    <li class=" main-nav__item--active">
+                    <li class="main-nav__item main-nav__item--active">
                         <a>Главная</a>
                     </li>
                     <li class="main-nav__item">
                         <a href="photo.html">Фотографии</a>
                     </li>
                     <li class="main-nav__item">
-                        <a href="#">Конкурс</a>
+                        <a href="form.html">Конкурс</a>
                     </li>
                     <li class="main-nav__item">
                         <a href="#">HTML Academy</a>
@@ -38,11 +38,11 @@
            </div>
     </header>
     <main>
-
        <section class="form">
            <h1 class="visually-hidden">Form</h1>
               <p>Поделитесь своей историей и получите шанс выиграть ценный приз-1000 миль
               на вашу бонусную карту! Пожалуйста,заполните форму ниже:</p>
+           <div class="form-wrap">
            <form action="#" method="post">
               <fieldset class="user-data">
                   <input type="text" id="surname-field" placeholder="Укажите фамилию">
@@ -63,12 +63,10 @@
               </fieldset>
               <fieldset class="backcharge-area">
                   <legend>Контактная информация</legend>
-                  <label for="text-number">телефон</label>
+                  <label  for="text-number">номер телефона</label>
                   <input type="text" id="text-number" placeholder="Номер, пожалуйста">
-                  <p>номер телефона</p>
-                  <label for="text-mail">почта</label>
+                  <label  for="text-mail">Адрес почты</label>
                   <input type="text" id="text-mail" placeholder="Введите почту">
-                  <p>Адрес почты</p>
               </fieldset>
               <fieldset class="checkbox-area">
                   <legend>Все безбашенные достижения в путешествии</legend>
@@ -92,6 +90,7 @@
               <input type="submit" class="dispatch" value="Отправить форму">
               <span>обязательные для заполнения поля</span>
         </form>
+        </div>
      </section>
      </main>
        <footer class="main-footer">

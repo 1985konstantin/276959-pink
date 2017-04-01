@@ -1,6 +1,7 @@
 .page-header{
-    min-height: 993px;
+    .container();
     outline: 1px solid black;
+    background-color: #10161b;
 
 }
 .logo--all-header {
@@ -13,11 +14,17 @@
 @media @tablet-widths {
 
   .page-header {
-    width: 1700px;
+    .container();
     min-height: 70px;
-    padding-bottom: 400px;
+
   }
+}
 
+@media @desktop-widths {
+.page-header{
 
-
+}
+.logo--all-header{
+    width: 150px;
+}
 }

@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
   </head>
-  <body>
+  <body class="main-page">
       <header class="page-header">
           <h1 class="visually-hidden">HTML Academy: Pink</h1>
           <div class="logo logo--all-header">
@@ -18,11 +18,11 @@
           <nav class="main-nav">
               <div class="main-nav__wrapper">
                   <ul class="main-nav__items">
-                      <li class=" main-nav__item--active">
+                      <li class="main-nav__item main-nav__item--active">
                           <a>Главная</a>
                       </li>
                       <li class="main-nav__item">
-                          <a href="#">Фотографии</a>
+                          <a href="photo.html">Фотографии</a>
                       </li>
                       <li class="main-nav__item">
                           <a href="form.html">Конкурс</a>
@@ -33,50 +33,55 @@
                    </ul>
               </div>
           </nav>
-          <div class="bottom-layer">
+          <div class="download-app-layer">
                 <h1 class="visually-hidden">Pink-choose-app</h1>
                   <p class="commercial">Взгляните на жизнь иначе!</p>
-                  <button class="round-button__bottom-layer">скачать приложение</button>
-                  <a href=""></a>
-                  <a href=""></a>
-                  <a href=""></a>
+                  <button class="round-button round-button__header-layer">скачать приложение</button>
+                  <a class="header-social-icon" href=""></a>
+                  <a class="header-social-icon" href=""></a>
+                  <a class="header-social-icon" href=""></a>
                   <p>Доступно для IPhone, Ipad, Android, Windows Phone, OS X, Windows 8</p>
-              </div>
+          </div>
       </header>
       <main>
           <section class="feature">
               <h1 class="visually-hidden">HTML Academy: Pink-feature</h1>
               <p class="feature__headline">Устали от серости мегаполиса? Нам есть, что вам предложить!</p>
               <div class="feature-section">
-                  <img src="#" alt="">
-                  <h2>Поднимает настроение</h2>
+              <div class="feature-section__block">
+                  <img class="feature-section__phone-image" src="#" alt="">
+                  <h2 class="feature-section__header">Поднимает настроение</h2>
                   <p class="feature-section__feauter-text">Приложение поможет вам победить осеннюю хандруи депрессию буквально
                   в несколько кликов!</p>
               </div>
-              <div class="feature-section">
-                  <img src="#" alt="">
-                  <h2></h2>
-                  <p class="feature-section__feauter-text">Меняет мир вокруг</p>
+              <div class="feature-section__block">
+                  <img class="feature-section__phone-image" src="#" alt="">
+                  <h2 class="feature-section__header">Меняет мир вокруг</h2>
+                  <p class="feature-section__feauter-text">Сделайте снимок и украсьте его смайликом или текстовой подписью,
+                  чтобы усилить эффект</p>
               </div>
-              <div class="feature-section">
-                  <img src="#" alt="">
-                  <h2>Заводит новых друзей</h2>
+              <div class="feature-section__block">
+                  <img class="feature-section__phone-image" src="#" alt="">
+                  <h2 class="feature-section__header">Заводит новых друзей</h2>
                   <p class="feature-section__feauter-text">Ставьте лайки, комментируйте, делитесь ФОТОГРАФИЯМИ
                   С ДРУЗЬЯМИ И ЗАВОДИТЕ НОВЫХ</p>
               </div>
-              <div class="feature-section-bottom-area">
-                  <img src="#" alt="">
+              </div>
+              <div class="feature__bottom-area">
+                  <img class="feature_picture" src="#" alt="">
+                  <div class="feature__wrap">
                   <h2>Эффект на 24 часа!</h2>
-                  <p class="feature-section-bottom-area__feauter-text">Британские ученые провели исследование и доказали, что положительный
+                  <p class="feature__feauter-text">Британские ученые провели исследование и доказали, что положительный
                   эффект от исплльзования длится целые сутки!</p>
-                  <a class="feature-section-bottom-area__feauter-link" href="#"></a>
+                  <a class="feature-section-bottom-area__feauter-link" href="#">узнать больше об исследовании</a>
+                  </div>
               </div>
           </section>
           <section class="reviewes">
               <h1 class="visually-hidden">Pink-reviewes</h1>
               <blockquote class="reviewes__quote">
-                  <p>Это приложение перевурнуло мой мир и позволило взглянуть по-новому на привычные серые вещи! А ещё я познакомился со своей будущей женой
-                  в комментариях к выложенной фотографии!</p>
+                  <p>&laquo;Это приложение перевурнуло мой мир и позволило взглянуть по-новому на привычные серые вещи! А ещё я познакомился со своей будущей женой
+                  в комментариях к выложенной фотографии!&raquo;</p>
                   <cite class="reviewes__bold-text">Николай Петров</cite>
                   <p class="reviewes__reviewes-text">25 лет, водитель трамвая</p>
               </blockquote>
@@ -115,6 +120,7 @@
           <section class="contacts">
               <h1 class="visually-hidden">HTML Academy:Pink-Contacts</h1>
               <p class="contacts__contacts-text">Остались вопросы? Свяжитесь с нами!</p>
+              <div class="contacts__wrap">
               <article>
                   <b class="contacts__contacts-secondary-text">Звоните:</b>
                   <a class="contacts__contacts-text" href="+78125556666">+7(812)555-66-66</a>
@@ -127,6 +133,7 @@
                   <b class="contacts__contacts-secondary-text">Пишите:</b>
                   <a class="contacts__headline-text-link" href="#">mail@htmlacademy.ru</a>
               </article>
+              </div>
           </section>
        </main>
       <footer class="main-footer">
